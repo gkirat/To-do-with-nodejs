@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html , body{
+
+    height: 100%;
+    width: 100%;
+}
+header,
+footer {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  padding: 5vmin;
+  flex: 1 0 auto;
+  color: white;
+  min-height: 90vh;
+  /* justify-content: center; */
+}
+
+h1 {
+  text-align: center;
+}
+footer{
+  color: white;
+  height: 10vh;
+}
+.date{
+  background-color: #E25E3E;
+  height: 10%;
+  width: 25%;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 5rem;
+}
+.date h2{
+  justify-content: center;
+  align-items: center;
+}
+.task-list{
+  margin-bottom: 70px;
+}
+
+
